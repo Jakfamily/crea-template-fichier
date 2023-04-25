@@ -25,6 +25,7 @@ Dir.chdir(folder_name) do
     f.puts "gem 'nokogiri'"
     f.puts "gem 'httparty'"
     f.puts "gem 'faker'"
+    f.puts "gem 'guard'"
     # Ajouter d'autres gems si nécessaire
   end
   
@@ -42,6 +43,11 @@ Dir.chdir(folder_name) do
 
   # Initialise rspec
   system("rspec --init")
+
+  # Créé le fichier app.rb
+  File.open("app.rb", "w") do |f|
+    f.puts "require 'bundler'"
+    f.puts "Bundler.require"
 
   # Crée le fichier README.md
   File.open("README.md", "w") do |f|
