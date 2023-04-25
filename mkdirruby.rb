@@ -49,6 +49,7 @@ Dir.chdir(folder_name) do
   File.open("app.rb", "w") do |f|
     f.puts "require 'bundler'"
     f.puts "Bundler.require"
+  end
 
   # Crée le fichier README.md
   File.open("README.md", "w") do |f|
