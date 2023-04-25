@@ -26,6 +26,7 @@ Dir.chdir(folder_name) do
     f.puts "gem 'httparty'"
     f.puts "gem 'faker'"
     f.puts "gem 'guard'"
+    f.puts "gem 'json'"
     # Ajouter d'autres gems si nécessaire
   end
   
