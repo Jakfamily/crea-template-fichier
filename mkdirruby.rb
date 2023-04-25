@@ -42,6 +42,9 @@ Dir.chdir(folder_name) do
   # Crée le dossier lib
   system("mkdir lib")
 
+  # Crée le dossier db
+  system("mkdir db")
+
   # Initialise rspec
   system("rspec --init")
 
