@@ -86,6 +86,6 @@ Dir.chdir(folder_name) do
 end
 
 # Crée l'alias pour l'exécution du script
-system('alias mkdirruby="ruby /home/jakfamily/crea-template-fichier/mkdirruby.rb"')
+system('alias mkdirruby="ruby /home/jakfamily/Documents/crea-template-fichier/mkdirruby.rb"')
 system('mkdirruby')
 
